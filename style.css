@@ -322,6 +322,7 @@ h4 {
     width: 100%;
    }
    .button-shop{
-    width: 110px;
+    width: 100px;
+    height: 40px;
    }
 }
