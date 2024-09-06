@@ -1,0 +1,318 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+header {
+    position: fixed;
+    height: 100px;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+}
+
+#sec-1 {
+    height: 70dvh;
+    width: 100%;
+    background-position: 20%;
+    background-size: 200%;
+    background-image: url(/imagens/barista-making-classic-cappuccino.jpg);
+    filter: grayscale(0.5);
+
+}
+
+
+#logo {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    color: white;
+    width: 10%;
+    height: 100%;
+    display: flex;
+    margin-left: 20px;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+#topnavCenter {
+    width: 80%;
+}
+
+#busca {
+    width: 10%;
+    height: 100%;
+}
+
+
+
+
+
+#sec1-part2 div div p {
+    font-size: 20px;
+    text-align: center;
+}
+
+
+#itensTopnav {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    color: white;
+}
+
+#itensTopnav li {
+    padding: 50px;
+}
+
+#itensTopnav li a {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+#center {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+#texts-sec1 {
+    flex-direction: column;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    color: white;
+}
+
+h3 {
+    font-size: 4vw;
+}
+
+h4 {
+    font-size: 2vw;
+
+}
+
+#sec1-part2 {
+    height: 30dvh;
+    width: 100%;
+    background-color: #68483C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#sec1-part2 div {
+    width: 80%;
+    height: 100%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 15px;
+}
+
+#sec1-part2 div div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#div-botao {
+    height: 10px;
+}
+
+#div-botao div {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    width: 150px;
+    background-color: white;
+    color: #68483C;
+    transition: 400ms;
+}
+
+#div-botao div:hover {
+    transform: scale(1.1);
+    transition: 400ms;
+}
+
+
+#sec-2 {
+    background-color: #68483C;
+    height: 100dvh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#center-sec2 {
+    background-color: #a39590;
+    width: 80%;
+    height: 100dvh;
+}
+
+.swiper {
+    width: 100%;
+    height: 500px;
+}
+
+.itemShop {
+    height: 450px;
+    font-family: "Playfair Display", serif;
+
+    width: 250px;
+    border-radius: 10px;
+    background-color: white;
+    border: 1px solid #ebd5cd;
+}
+
+#sec-3 {
+    height: 100dvh;
+    width: 100%;
+    background-color: black;
+}
+
+.imgs-shop {
+    width: 250px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 300px;
+    background-image: url(https://frostingandfettuccine.com/wp-content/uploads/2022/12/Caramel-Iced-Coffee-6.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.title-shop {
+    margin-top: 10px;
+    margin-left: 5px;
+    font-size: 25px;
+}
+
+.subtitle-shop {
+    width: 100%;
+    font-size: 15px;
+    margin-top: -20px;
+}
+.dadShop{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 20px;
+    height: 100%;
+    width: 100%;
+}
+
+.swiper-button-prev::after{
+    color: black;
+}
+
+.region-button-shop{
+    position: relative;
+    height: 15%;
+    width: 100%;
+
+}
+.region-button-shop p{
+    position: absolute;
+    left: 30px;
+    font-size: 20px;
+    top: 20px;
+}
+.button-shop{
+    position: absolute;
+    right: 0;
+    top: -15px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    border-radius: 15px;
+    color: white ;
+    margin-right: 10px;
+    margin-top: 20px;
+    background-color: #68483C;
+}
+.splide{    
+    margin-top: 100px;
+    width: 90%;
+}
+.produtos-Carrosel{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 480px) {
+    #sec-1 {
+
+        background-position: 20%;
+        background-size: cover;
+    }
+
+    #h4 {
+        font-size: 6vw;
+    }
+
+    #h3 {
+        font-size: 9vw;
+
+    }
+
+    #center {
+        width: 80%;
+        margin-left: 50px;
+    }
+
+    #sec1-part2 div div p {
+        font-size: 15px;
+        text-align: center;
+    }
+    .itemShop {
+        height: 332px;
+        width: 166px;
+        border-radius: 10px;
+        background-color: white;
+    }
+    .imgs-shop {
+        width: 166px;
+        height: 200px;
+    }
+    #center-sec2{
+        width: 100%;
+    }
+    .button-shop{
+        width: 50px;
+    }
+    .title-shop {
+        margin-top: 10px;
+        margin-left: 5px;
+        font-size: 12,5px;
+    }
+    
+    .subtitle-shop {
+        margin-top: -15px;
+
+        width: 100%;
+        font-size: 10px;
+    }
+}
