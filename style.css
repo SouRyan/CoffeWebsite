@@ -325,4 +325,9 @@ h4 {
     width: 100px;
     height: 40px;
    }
+   .region-button-shop p{
+    left: 5px;
+    font-size: 20px;
+    top: 10px;
+   }
 }
