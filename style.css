@@ -262,7 +262,7 @@ h4 {
     justify-content: center;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 550px) {
     #sec-1 {
 
         background-position: 20%;
