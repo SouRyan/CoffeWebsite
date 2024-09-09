@@ -1,3 +1,15 @@
+import { Analytics } from '@vercel/analytics/react';
+function MyApp({ Component, pageProps }) {
+    return (
+      <>
+        <Component {...pageProps} />
+        <Analytics />
+      </>
+    );
+  }
+  
+  export default MyApp;
+  
 var splide = new Splide('.splide', {
     perPage: 4,
     rewind: true,
@@ -20,3 +32,4 @@ function updatePerPage() {
 // Chamar a função ao carregar a página e quando a janela for redimensionada
 window.addEventListener('resize', updatePerPage);
 updatePerPage();
+
