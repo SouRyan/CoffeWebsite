@@ -328,8 +328,8 @@ h1{
 }
 @media screen and (max-width: 1070px){
     .itemShop {
-        height: 290px;
-        width: 120px;
+        height: 390px;
+        width: 220px;
         border-radius: 10px;
         background-color: white;
     }
