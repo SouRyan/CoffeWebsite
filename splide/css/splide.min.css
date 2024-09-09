@@ -151,7 +151,7 @@
 .splide__arrow {
     -ms-flex-align: center;
     align-items: center;
-    background: #ccc;
+    background: rgba(255, 255, 255, 0);
     border: 0;
     border-radius: 50%;
     cursor: pointer;
@@ -166,13 +166,13 @@
     top: 50%;
     transform: translateY(-50%);
     width: 2em;
-    z-index: 1
+    z-index: 1;
 }
 
 .splide__arrow svg {
     fill: #000;
-    height: 1.2em;
-    width: 1.2em
+    height: 4.2em;
+    width: 2.2em
 }
 
 .splide__arrow:hover:not(:disabled) {
@@ -206,7 +206,7 @@
 }
 
 .splide__pagination {
-    bottom: .5em;
+    bottom: -2em;
     left: 0;
     padding: 0 1em;
     position: absolute;

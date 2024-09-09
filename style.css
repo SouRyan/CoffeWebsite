@@ -164,7 +164,7 @@ h4 {
 }
 
 #center-sec2 {
-    background-color: #a39590;
+    background-color: #CBB8A7;
     width: 80%;
     height: 100dvh;
 }
@@ -210,6 +210,7 @@ h4 {
     width: 100%;
     font-size: 15px;
     margin-top: -20px;
+    margin-left: 5px;
 }
 .dadShop{
     display: flex;
@@ -261,7 +262,16 @@ h4 {
     align-items: center;
     justify-content: center;
 }
-
+.splide__pagination .splide__pagination--ltr{
+    margin-top: 300px;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    font-family: "Montserrat", sans-serif;
+    color: #68483C;
+    margin-top: 50px;
+}
 @media screen and (max-width: 550px) {
     #sec-1 {
 
@@ -316,18 +326,79 @@ h4 {
         font-size: 10px;
     }
 }
-@media screen and (max-width: 700px){
+@media screen and (max-width: 1070px){
+    .itemShop {
+        height: 390px;
+        width: 220px;
+        border-radius: 10px;
+        background-color: white;
+    }
+    .imgs-shop {
+        width: 100%;
+        height: 240px;
+    }
+    #center-sec2{
+        width: 100%;
+    }
 
-   #center-sec2{
-    width: 100%;
-   }
-   .button-shop{
-    width: 100px;
-    height: 40px;
-   }
-   .region-button-shop p{
-    left: 5px;
-    font-size: 20px;
-    top: 10px;
-   }
+    .title-shop {
+        margin-top: 10px;
+        margin-left: 5px;
+        font-size: 12,5px;
+    }
+    
+    .subtitle-shop {
+        margin-top: -15px;
+
+        width: 100%;
+        font-size: 10px;
+    }
+
+}
+@media screen and (max-width: 768px){
+
+    .itemShop {
+        height: 265px;
+        width: 150px;
+        border-radius: 10px;
+        background-color: white;
+    }
+    .imgs-shop {
+        width: 100%;
+        height: 100px;
+    }
+    #center-sec2{
+        width: 100%;
+    }
+
+    .title-shop {
+        margin-top: 10px;
+        margin-left: 5px;
+    }
+    
+    .subtitle-shop {
+        margin-top: -15px;
+        width: 100%;
+        font-size: 12px;
+    }
+    .button-shop{
+        height:40px ;
+        width: 70px ;
+        top: -0px;
+        font-size: 10px;
+    }
+    .region-button-shop p{
+        position: absolute;
+        left: 10px;
+        font-size: 20px;
+        top: 30px;
+    }
+    .produtos-Carrosel{
+        height: 300px;}
+}
+@media screen and (max-width: 868px){
+    #itensTopnav{
+        position: fixed;
+        right: -2000px;
+    }
 }
