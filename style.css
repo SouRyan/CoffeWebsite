@@ -157,7 +157,7 @@ h4 {
 
 #sec-2 {
     background-color: #68483C;
-    height: 100dvh;
+    height: 200dvh;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -166,7 +166,7 @@ h4 {
 #center-sec2 {
     background-color: #CBB8A7;
     width: 80%;
-    height: 100dvh;
+    height: 200dvh;
 }
 
 .swiper {
@@ -175,6 +175,7 @@ h4 {
 }
 
 .itemShop {
+    z-index: 2;
     height: 450px;
     font-family: "Playfair Display", serif;
 
@@ -257,7 +258,6 @@ h4 {
     width: 90%;
 }
 .produtos-Carrosel{
-    height: 500px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -317,6 +317,7 @@ h1{
         margin-top: 10px;
         margin-left: 5px;
         font-size: 12,5px;
+        text-overflow: ellipsis;
     }
     
     .subtitle-shop {
@@ -352,6 +353,7 @@ h1{
     }
 
 }
+
 @media screen and (max-width: 768px){
 
     .itemShop {
@@ -371,6 +373,7 @@ h1{
     .title-shop {
         margin-top: 10px;
         margin-left: 5px;
+        font-size: 20px;
     }
     
     .subtitle-shop {
@@ -393,6 +396,9 @@ h1{
     .produtos-Carrosel{
         height: 300px;
     }
+}
+#oi2{
+    background-color: rgba(255, 0, 0, 0.426);
 }
 @media screen and (max-width: 868px){
     #itensTopnav{
